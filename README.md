@@ -12,6 +12,9 @@ REASON FOR BUILDING PROGRAM:
 
 To practise building programs via Javascript, its unit and feature testing, set up and styling of HTML as well as web deployment of the project.
 
+DEPLOYED SITE:
+https://inspiring-sinoussi-f48baf.netlify.com/
+
 COMPLETED BY:
 Nici Putter
 
