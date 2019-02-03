@@ -8,7 +8,7 @@ FizzBuzz is a numbers game that allows user to input a random number where in tu
 When the number is divisible by 3, the program returns "Fizz", when divisible by 5 "Buzz" and when divisible by 15 it will return "FizzBuzz". 
 For any other number the program returns the eact number
 
-REASON FOR BUILDING:
+REASON FOR BUILDING PROGRAM:
 
 To practise building programs via Javascript, its unit and feature testing, set up and styling of HTML as well as web deployment of the project.
 
