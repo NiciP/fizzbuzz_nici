@@ -5,10 +5,10 @@ function FizzBuzz() {
             return "FizzBuzz";
         } else if (number % 5 === 0) {
             return 'Buzz';
-        } else if  (number % 3 === 0)  {
+        } else if  (number % 3 === 0) {
             return 'Fizz';
         } else {
-            return number
+            return number;
         }   
     }
 }
