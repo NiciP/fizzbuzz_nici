@@ -13,7 +13,6 @@ function FizzBuzz() {
     }
 }
 
-
-//if (typeof module !== 'undefined' && module.exports) {
-//    module.exports = FizzBuzz;
+// if (typeof module !== 'undefined' && module.exports) {
+//     module.exports = FizzBuzz;
 // }
