@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link  href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"  rel="stylesheet">
     <title>The Great FizzBuzz Game!</title>
-    
 </head>
-<body>
-    <input type="text" id="value">
-    <input type="submit" value="Check" id="button">
-    <div id="display_answer"></div>
+
+    <body class="bg-teal">
+        <center>
+        <div class="mt-10 text-center"></div>
+        <h1 style="color:red;">The Fizz game, a really Buzzing game! </h1>
+            <br> 
+            <br> 
+        <input class="text-3xl text-center" type="text" id="value">
+        <div class="hover:bg-blue-darkest text-white mt-6 text-center"></div>
+        <div class="bg-teal-dark border-b- hover:bg-blue text-white font-bold mt-4 py-6 px-12 rounded">
+            <input type= "submit" value="Check" id="button">
+        </div>
+        <div class="mt-2 text-center lowercase tracking-wide"></div>
+        <div class="text-red text-4xl mt-10 font-bold" id="display_answer"></div>
+        </center>
 
     <script src="./src/js/fizz-buzz.js"></script>
     <script>
@@ -27,3 +38,4 @@
     </script>
     </body>
 </html>
+

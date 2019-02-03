@@ -7,11 +7,14 @@ Setting the constant fizzBuzz to read the contents of 'fizz-buzz.js' in a synchr
 
 .............
 
+
+
 Question 2. In your README to the best of your knowledge please explain why we are placing the let fizzBuzz = new FizzBuzz outside the it block?
 
 To be able to create and use other instances of fizzbuzz in other it blocks as well
 
 .............
+
 
 
 Question 3. Please explain the difference between using === and == in JS?
@@ -20,6 +23,8 @@ Question 3. Please explain the difference between using === and == in JS?
 
 .............
 
+
+
 Read more: http://www.java67.com/2013/07/difference-between-equality-strict-vs-operator-in-JavaScript-Interview-Question.html#ixzz5eOBT8oIJ
 
 Question 4. Please explain why we are moving (number % 5 === 0) to the top?
@@ -27,11 +32,15 @@ Question 4. Please explain why we are moving (number % 5 === 0) to the top?
 .............
 
 
+
+
 Question 5. Please explain the difference between feature and unit test
 
 Unit testing is where we test wether the logic of the software is correct
 
 .............
+
+
 
 
 Question 6. In your README to the best of your knowledge please explain what this following code does
@@ -53,7 +62,34 @@ describe('User can input a value and get FizzBuzz results', () => {
 .............
 
 
+
+
 Question 7. What expectations in the context of testing are
 
 .............
+
+
+
+
+Question 8. Please write a line to line explanation of what is happening in this code
+
+<script src="./js/fizz-buzz.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let button = document.getElementById('button')
+            let displayDiv = document.getElementById('display_answer')
+            button.addEventListener('click', () =>{
+                let value = document.getElementById('value').value
+                let fizzBuzz = new FizzBuzz
+                let result = fizzBuzz.check(value)
+                displayDiv.innerHTML = result;
+            })
+        })
+    </script>
+
+.............
+
+
+
+Question 9. Explain what a CDN (Content Delivery Network) is?
 
