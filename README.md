@@ -1,6 +1,7 @@
 
 FIZZBUZZ CHALLENGE
 
+
 HOW THE GAME WORKS:
 
 FizzBuzz is a numbers game that allows user to input a random number where in turn he/she receives feedback. 
@@ -15,7 +16,7 @@ COMPLETED BY:
 Nici Putter
 
 
-QUESTIONS:
+COURSE QUESTIONS:
 
 Question 1. In your README to the best of your knowledge please explain what the following lines of code do
 let  fizzBuzz = fs.readFileSync('./src/js/fizz-buzz.js');
